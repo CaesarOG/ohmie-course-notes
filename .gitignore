@@ -1,0 +1,5 @@
+.DS_Store
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
+!.obsidian/plugins/*/manifest.json
+.obsidian/plugins/copilot/data.json

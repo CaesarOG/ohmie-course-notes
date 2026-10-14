@@ -1,0 +1,26 @@
+{
+  "templater-obsidian:Electronics/attachments/center-image.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:Electronics/attachments/Section 5 - Components/center-image.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:a92555fd-b195-4ae5-bc56-9d2f80886165": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
+}

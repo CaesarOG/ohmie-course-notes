@@ -1,0 +1,19 @@
+/* 1. Target block images strictly inside the main workspace note views */
+.workspace-leaf-content .markdown-source-view.mod-cm6 .cm-embed-block:has(> .internal-embed.image-embed),
+.workspace-leaf-content .markdown-source-view.mod-cm6 .cm-embed-block:has(> img),
+.workspace-leaf-content .markdown-rendered .internal-embed.image-embed img,
+.workspace-leaf-content .markdown-rendered img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+}
+
+/* 2. Force center layout blocks, explicitly ignoring the Table of Contents and sidebar panels */
+.workspace-leaf-content .markdown-source-view.mod-cm6 .cm-embed-block:has(> .internal-embed.image-embed):not(:has(.atoc-container)),
+.workspace-leaf-content .markdown-source-view.mod-cm6 .cm-embed-block:has(> img):not(:has(.atoc-container)),
+.workspace-leaf-content .markdown-source-view.mod-cm6 .cm-content .internal-embed:not(.atoc-container) {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
